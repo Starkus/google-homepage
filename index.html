@@ -2,10 +2,34 @@
 <html>
   <head>
     <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
-    <input maxlength="2048" autocomplete="off" title="Search"></input>
-    <button>Search with Google</button>
-    <button>I'm feeling lucky</button>
+    <div style="padding-top: 250px;">
+    </div>
+    <div>
+      <center>
+        <img id="logo" src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/6466217/fixed-google-logo-font.png">
+        <script src="https://www.gstatic.com/external_hosted/createjs/createjs-2015.11.26.min.js"></script>
+        <br />
+        <div style="width: 833px;">
+          <div style="padding-left: 173px; padding-right: 173px;">
+            <form action="results.html">
+              <div class="searchbox">
+                <div style="position: relative;">
+                  <div style="height: 44px; padding: 5px 9px 0 16px;">
+                    <input class="searchbar" maxlength ="2048" autocomplete="off" title="Search"></input>
+                  </div>
+                </div>
+              </div>
+              <div style="padding-top:18px">
+                <input class="mainbutton" type="submit" value="Search with Google">
+                <input class="mainbutton" type="button" value="I'm Feeling Lucky">
+              </div>
+            </form>
+          </div>
+        </div>
+      </center>
+    </div>
   </body>
 </html>
